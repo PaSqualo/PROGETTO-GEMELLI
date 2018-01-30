@@ -29,8 +29,12 @@ h6 {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.prof {
+  text-transform: uppercase;
+  font-weight: 700;
+}
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 section h2.section-heading {
@@ -50,7 +54,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 }
 
@@ -61,7 +65,7 @@ section h3.section-subheading {
 
 .btn-xl {
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 10px 20px;
 }
 
 .btn-primary {
@@ -167,7 +171,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/gemelli-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -616,7 +620,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-  height: 248px;
+  height: 157px;
 }
 
 section#contact .form-control:focus {

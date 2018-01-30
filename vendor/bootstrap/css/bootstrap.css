@@ -584,6 +584,29 @@ pre code {
     max-width: 1140px;
   }
 }
+@media (min-width: 576px) {
+  .pre-header {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .pre-header {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .pre-header {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pre-header {
+    display: block;
+  }
+}
 
 .container-fluid {
   width: 100%;
@@ -7712,10 +7735,10 @@ button.bg-dark:focus {
   margin-bottom: auto !important;
 }
 
-.ml-auto,
+/* .ml-auto,
 .mx-auto {
   margin-left: auto !important;
-}
+} */
 
 @media (min-width: 576px) {
   .m-sm-0 {
