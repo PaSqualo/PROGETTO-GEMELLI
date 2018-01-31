@@ -103,7 +103,7 @@ gulp.task("js:minify", function() {
 gulp.task("js", ["js:minify"]);
 
 // Default task
-gulp.task("default", ["js", "vendor"]);
+gulp.task("default", ["css", "js", "vendor"]);
 
 // function defaultTask(done) {
 //   ["css", "js", "vendor"];
