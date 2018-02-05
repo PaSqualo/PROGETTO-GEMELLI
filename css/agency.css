@@ -4,19 +4,19 @@ body {
 }
 
 p {
-  line-height: 1.75;
+  line-height: 1.45;
 }
 
 a {
-  color: #fed136;
+  color: #fed236;
 }
 
 a:hover {
-  color: #fec503;
+  color: #fec703;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #fed236 !important;
 }
 
 h1,
@@ -50,7 +50,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 
@@ -65,13 +65,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #fed236;
+  border-color: #fed236;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #fec910 !important;
+  border-color: #fec910 !important;
   color: white;
 }
 
@@ -79,13 +79,33 @@ section h3.section-subheading {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
+/*light-effect*/
+.light-effect {
+  position: relative;
+  background-color: #f39c12;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.light-effect:hover {
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #97B1BF;
+  color: #c6fcf0;
+}
+
 ::-moz-selection {
-  background: #fed136;
+  background: #fed236;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #fed236;
   text-shadow: none;
 }
 
@@ -108,17 +128,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #fed236;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #fed236;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #fec703;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -131,7 +151,8 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: white;
+  font-weight: bold;
 }
 
 @media (min-width: 992px) {
@@ -219,6 +240,56 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.introduction div {
+  opacity: 0;
+  overflow-y: hidden;
+  animation: stagger-in 1s 1s ease forwards;
+}
+
+.introduction div .intro-text {
+  position: absolute;
+  transform: translate(-10px);
+  animation: definition-slide-here 0.5s 2.2s ease forwards;
+}
+
+.introduction div .intro {
+  transform: translate(-75%);
+  animation: definition-slide 1s 1.5s ease forwards;
+}
+
+@keyframes stagger-in {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes definition-slide {
+  0% {
+    transform: translate(-75%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes definition-slide-here {
+  0% {
+    transform: translate(-10px);
+    -moz-transform: translate(-10px);
+  }
+  100% {
+    transform: translate(15px);
+    -moz-transform: translate(15px);
+  }
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
@@ -245,7 +316,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(254, 210, 54, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -449,7 +520,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #fed236;
 }
 
 .timeline > li .timeline-image h4 {
@@ -591,6 +662,16 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+.zoom img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.zoom-effect:hover .zoom img {
+  -webkit-transform: scale(1.58);
+  transform: scale(1.58);
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/LoveLetter.jpg");
@@ -620,7 +701,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #fed236;
   box-shadow: none;
 }
 
@@ -690,5 +771,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #fed236;
 }
