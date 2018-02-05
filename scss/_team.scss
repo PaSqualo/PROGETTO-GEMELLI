@@ -6,6 +6,7 @@
     width: 225px;
     height: 225px;
     border: 7px solid $white;
+    
   }
   h4 {
     margin-top: 25px;
@@ -15,4 +16,20 @@
   p {
     margin-top: 0;
   }
+}
+.zoom img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+// .zoom-effect {
+//   float: left;
+//   position: relative;
+//   width: 640px;
+//   height: 360px;
+//   margin: 0 auto;
+//   overflow: hidden;
+// }
+.zoom-effect:hover .zoom img {
+  -webkit-transform: scale(1.58);
+  transform: scale(1.58);
 }

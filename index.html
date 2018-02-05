@@ -31,47 +31,60 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
+    <div class="container" style="width:auto;">
       <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> -->
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
+      <button class="navbar-toggler navbar-toggler-right" style="border-radius: 50%; padding: 4px; background-color: #fbfbfb;"
+        type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation" onclick="document.getElementById('top').style.display='none'; ">
+        <img class="rounded-circle img-fluid" src="img/logos/cicogna.png" alt="cicogna gemelli" style="max-width: 50px;">
         <!-- <i class="fa fa-bars"></i> -->
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ">
           <li class="nav-item">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+              <img id="top" class="rounded-circle img-fluid" src="img/logos/cicogna.png" alt="cicogna gemelli" style="max-width: 50px; border:4px solid white">
+            </a>
+            <!-- <a id="top2" class="navbar-brand js-scroll-trigger" href="#page-top" style="display:none;">Top</a>
+            <script>
+              document.getElementById('top')
+              function topHidden() {
+                if (style = "display:none;") {
+                  document.getElementById('top2').style.display = 'block';
+                }
+                
+              }; -->
+            </script>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#about" style="margin-top: 13px;">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            <a class="nav-link js-scroll-trigger" href="#team" style="margin-top: 13px;">Team</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          <li class=" nav-item ">
+            <a class="nav-link js-scroll-trigger " href="#contact" style="margin-top: 13px;">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div style="height: 100px; background-color: #fed236;" class="pre-header"></div>
+  <div style="height: 100px; background-color: #fed236; " class="pre-header "></div>
 
   <!-- Header -->
   <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-lead-in">
-          <h1>Dalla gravidanza ai primi 1000 giorni di vita:</h1>
+    <div class="container introduction ">
+      <div class="intro-text ">
+        <div class="intro-lead-in ">
+          <h1 class=" ">Dalla gravidanza ai primi 1000 giorni di vita:</h1>
         </div>
-        <div class="intro-heading text-uppercase">
+        <div class="intro-heading text-uppercase ">
           <h1>un percorso naturale e ad alto contatto per genitori di due (o più)
-            <span style="color: #ffbd4a; font-size: 65px;">gemelli</span>
+            <span style="color: #ffbd4a; font-size: 65px; ">gemelli</span>
           </h1>
         </div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#info">Tell Me More</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger light-effect " href="#info ">Vuoi maggiori informazioni?</a>
       </div>
     </div>
   </header>
@@ -79,104 +92,106 @@
 
   <!-- About -->
   <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase" style="letter-spacing: -5px;">About this exciting journey</h2>
-          <h3 class="section-subheading text-muted" style="text-align: justify;">Il 3 e 4 marzo, presso gli spazi della sede di Terra Nuova Edizioni a Firenze (via Ponte di Mezzo 1), è in programma
+    <div class="container ">
+      <div class="row ">
+        <div class="col-lg-12 text-center ">
+          <h2 class="section-heading text-uppercase " style="">About this exciting journey</h2>
+          <h3 class="section-subheading text-muted " style="text-align: justify; ">Il 3 e 4 marzo, presso gli spazi della sede di Terra Nuova Edizioni a Firenze (via Ponte di Mezzo 1), è in programma
             il corso dal titolo Dalla gravidanza ai primi 1000 giorni di vita: un percorso naturale e ad alto contatto per
             genitori di due (o più) gemelli, che sarà tenuto da
-            <span class="prof">Alessia Laura Boni</span> e
-            <span class="prof">Sonia Coluccelli</span>, autrici del libro Un nido per due gemelli , con la partecipazione come docenti di
-            <span class="prof">Verena Schmid</span> e
-            <span class="prof">Sonia Negri</span>. Le giornate saranno condotte da Alessia Laura Boni e Sonia Coluccelli che porteranno la loro
+            <span class="prof ">Alessia Laura Boni</span> e
+            <span class="prof ">Sonia Coluccelli</span>, autrici del libro "
+            <a href="http://www.terranuovalibri.it/libro/dettaglio/sonia-coluccelli-alessia-laura-boni/un-nido-per-due-gemelli-9788866812098-236127.html"
+              target="_blank">Un nido per due gemelli</a>", con la partecipazione come docenti di
+            <span class="prof ">Verena Schmid</span> e
+            <span class="prof ">Paola Negri</span>. Le giornate saranno condotte da Alessia Laura Boni e Sonia Coluccelli che porteranno la loro
             riflessione e testimonianza e faciliteranno lo scambio e il confronto tra i partecipanti, ogni giornata vedrà
             una parte della mattinata affidata alle esperte che porteranno il loro contributo con uno spazio ampio dedicato
             alle domande e termineranno con un tempo dedicato da ciascun partecipante all’elaborazione di una personale sintesi
             di percorsi possibili e desiderabili rispetto alla gravidanza/parto/ accudimento nella prima infanzia.</h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="timeline">
+      <div class="row ">
+        <div class="col-lg-12 ">
+          <ul class="timeline ">
             <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/gemelli5.jpg" alt="">
+              <div class="timeline-image ">
+                <img class="rounded-circle img-fluid " src="img/about/gemelli5.jpg " alt="gemelli accoccolati ">
               </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
+              <div class="timeline-panel ">
+                <div class="timeline-heading ">
 
-                  <h4 class="subheading">Prima giornata
+                  <h4 class="subheading ">Prima giornata
                     <br />- 3 Marzo 2018</h4>
                 </div>
-                <div class="timeline-body">
-                  <p class="text-muted" style="text-align:justify;">La giornata di presentazione verrà incentrata sulle emozioni e le scelte connesse alla scoperta di una
+                <div class="timeline-body ">
+                  <p class="text-muted " style="text-align:justify; ">La giornata di presentazione verrà incentrata sulle emozioni e le scelte connesse alla scoperta di una
                     gravidanza gemellare. Verranno trattate tematiche a riguardo di un evento importante quale la gravidanza
                     plurima, come i rischi reali e i pregiudizi che ruotano attorno ad essa, come pure la possibilità di
                     valutare la scelta tra parto naturale e cesareo.
                     <br />
-                    <b class="prof">Verena Schmid</b> interverrà arricchendo il simposio con riflessioni maturate durante la sua attività
+                    <b class="prof ">Verena Schmid</b> interverrà arricchendo il simposio con riflessioni maturate durante la sua attività
                     di ostetrica ed un'esperienza di 25 anni incentrata sulla difesa della fisiologia del parto e dell’
-                    <i>empowerment</i> femminile dal concepimento alla nascita, </p>
+                    <i>empowerment</i> femminile dal concepimento alla nascita.</p>
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/gemelli1.jpg" alt="">
+            <li class="timeline-inverted ">
+              <div class="timeline-image ">
+                <img class="rounded-circle img-fluid " src="img/about/gemelli1.jpg " alt="gemelli conigliosi ">
               </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
+              <div class="timeline-panel ">
+                <div class="timeline-heading ">
 
-                  <h4 class="subheading">Seconda giornata
+                  <h4 class="subheading ">Seconda giornata
                     <br />- 4 Marzo 2018</h4>
                 </div>
-                <div class="timeline-body">
-                  <p class="text-muted" style="text-align:justify;">Durante la seconda giornata si prendeà in esame il tema dell' accudimento nel periodo dei primi
+                <div class="timeline-body ">
+                  <p class="text-muted " style="text-align:justify; ">Durante la seconda giornata si prenderà in esame il tema dell' accudimento nel periodo dei primi
                     <b>1000 giorni di vita</b> e tutte le tematiche ad esso correlate quali: la scelta possibile dell’allattamento
                     al seno, la possibilità del sonno condiviso, le tecniche per portare in fascia o con supporti ergonomici
                     i gemelli, il percorso di crescita tra autonomia e relazione gemellare.
                     <br />Questa giornata sarà impreziosita dagli interventi di
-                    <b class="prof">Paola Negri</b> consulente in allattamento materno ed autrice di diversi testi sull’argomento.
+                    <b class="prof ">Paola Negri</b> consulente in allattamento materno ed autrice di diversi testi sull’argomento.
                   </p>
                 </div>
               </div>
             </li>
             <!-- <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              <div class="timeline-image ">
+                <img class="rounded-circle img-fluid " src="img/about/3.jpg " alt=" ">
               </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
+              <div class="timeline-panel ">
+                <div class="timeline-heading ">
                   <h4>December 2012</h4>
-                  <h4 class="subheading">Transition to Full Service</h4>
+                  <h4 class="subheading ">Transition to Full Service</h4>
                 </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis
+                <div class="timeline-body ">
+                  <p class="text-muted ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis
                     temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+            <li class="timeline-inverted ">
+              <div class="timeline-image ">
+                <img class="rounded-circle img-fluid " src="img/about/4.jpg " alt=" ">
               </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
+              <div class="timeline-panel ">
+                <div class="timeline-heading ">
                   <h4>July 2014</h4>
-                  <h4 class="subheading">Phase Two Expansion</h4>
+                  <h4 class="subheading ">Phase Two Expansion</h4>
                 </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis
+                <div class="timeline-body ">
+                  <p class="text-muted ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis
                     temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
                 </div>
               </div>
             </li> -->
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
+            <li class="timeline-inverted ">
+              <div class="timeline-image ">
+                <h4>"vivi con noi
+                  <br>questa
+                  <br> esperienza"</h4>
               </div>
             </li>
           </ul>
@@ -186,122 +201,135 @@
   </section>
 
   <!-- Team -->
-  <section class="bg-light" id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase" style="font-size: 30px; margin-top: 0; margin-bottom: 3px;">Le relatrici</h2>
-          <h3 class="section-subheading text-muted">che presenteranno</h3>
+  <section class=" " id="team" style="background-color: #ffcd02ba; ">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-lg-12 text-center ">
+          <h2 class="section-heading text-uppercase " style="font-size: 30px; margin-top: 0; margin-bottom: 3px; ">Le relatrici</h2>
+          <h3 class="section-subheading text-muted ">che presenteranno</h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/Laura3.jpg" alt="Alessia Laura Boni">
+      <div class="row " style="margin-top: -50px; ">
+        <div class="col-sm-6 zoom-effect ">
+          <div class="team-member zoom ">
+            <div style="position: relative; width: 225px; height: 225px; margin: 0 auto; overflow: hidden; border-radius:50% ">
+              <img class="mx-auto rounded-circle " src="img/team/Laura3.jpg " alt="Alessia Laura Boni " style="border:
+              10px solid #f3f1e9; ">
+            </div>
             <h4>Alessia Laura Boni</h4>
-            <p class="text-muted">mamma di tre bambini, di cui due gemelle</p>
-            <p class="text-muted"> Nel 2014 fonda, con altre mamme e ostetriche, l’associazione La Cova, impegnata su temi quali il benessere femminile
+            <p class="text-muted ">mamma di tre bambini, di cui due gemelle</p>
+            <p class="text-muted "> Nel 2014 fonda, con altre mamme e ostetriche, l’associazione La Cova, impegnata su temi quali il benessere femminile
               e di coppia, e lo sviluppo dei bambini.</p>
-            <!-- <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
+            <!-- <ul class="list-inline social-buttons ">
+              <li class="list-inline-item ">
+                <a href="# ">
+                  <i class="fa fa-twitter "></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
+              <li class="list-inline-item ">
+                <a href="# ">
+                  <i class="fa fa-facebook "></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
+              <li class="list-inline-item ">
+                <a href="# ">
+                  <i class="fa fa-linkedin "></i>
                 </a>
               </li>
             </ul> -->
           </div>
         </div>
-        <div class="col-sm-6">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/Sonia.jpg" alt=" Sonia Coluccelli">
+        <div class="col-sm-6 zoom-effect ">
+          <div class="team-member zoom ">
+            <div style="position: relative; width: 225px; height: 225px; margin: 0 auto; overflow: hidden; border-radius:50% ">
+              <img class="mx-auto rounded-circle " src="img/team/Sonia.jpg " alt=" Sonia Coluccelli " style="border: 10px
+              solid #f3f1e9; ">
+            </div>
             <h4> Sonia Coluccelli</h4>
-            <p class="text-muted">mamma di quattro bimbi, due dei quali gemelli</p>
-            <p class="text-muted">Insegna, scrive e promuove le spinte verso il cambiamento e la riflessione pedagogica dentro e fuori la scuola.</p>
-            <!-- <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
+            <p class="text-muted ">mamma di quattro bimbi, due dei quali gemelli</p>
+            <p class="text-muted ">Insegna, scrive e promuove le spinte verso il cambiamento e la riflessione pedagogica dentro e fuori la scuola.</p>
+            <!-- <ul class="list-inline social-buttons ">
+              <li class="list-inline-item ">
+                <a href="# ">
+                  <i class="fa fa-twitter "></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
+              <li class="list-inline-item ">
+                <a href="# ">
+                  <i class="fa fa-facebook "></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
+              <li class="list-inline-item ">
+                <a href="# ">
+                  <i class="fa fa-linkedin "></i>
                 </a>
               </li>
             </ul> -->
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Le esperte</h2>
-          <h3 class="section-subheading text-muted">che interverranno</h3>
+      <div class="row ">
+        <div class="col-lg-12 text-center ">
+          <h2 class="section-heading text-uppercase ">Le esperte</h2>
+          <h3 class="section-subheading text-muted ">che interverranno</h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/Verena.jpg" alt="Verena Schmid">
+      <div class="row " style="margin-top: -50px; ">
+        <div class="col-sm-6 ">
+          <div class="team-member zoom-effect ">
+            <div style="position: relative; width: 225px; height: 225px; margin: 0 auto; overflow: hidden; border-radius:50%
+              " class="zoom ">
+              <img class="mx-auto rounded-circle " src="img/team/Verena.jpg " alt="Verena Schmid " style="border: 10px
+              solid #f3f1e9; ">
+            </div>
             <h4>Verena Schmid</h4>
-            <p class="text-muted">ostetrica dal 1979</p>
-            <p class="text-muted">è docente attiva a livello internazionale, autrice di numerosi libri, ha fondato la rivista D&D, il giornale
-              delle ostetriche e la Scuola ElementaLe di Arte Ostetrica a Firenze, nel 2000 le è stato assegnato il premio
-              internazionale Astrid Limburg per la promozione dell’autonomia dell’ostetrica e del parto naturale.</p>
-            <!-- <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
+            <p class="text-muted ">ostetrica dal 1979</p>
+            <p class="text-muted ">Docente attiva a livello internazionale, autrice di numerosi libri, ha fondato la rivista D&D, il giornale delle
+              ostetriche e la Scuola ElementaLe di Arte Ostetrica a Firenze, nel 2000 le è stato assegnato il premio internazionale
+              Astrid Limburg per la promozione dell’autonomia dell’ostetrica e del parto naturale.</p>
+            <!-- <ul class="list-inline social-buttons ">
+              <li class="list-inline-item ">
+                <a href="# ">
+                  <i class="fa fa-twitter "></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
+              <li class="list-inline-item ">
+                <a href="# ">
+                  <i class="fa fa-facebook "></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
+              <li class="list-inline-item ">
+                <a href="# ">
+                  <i class="fa fa-linkedin "></i>
                 </a>
               </li>
             </ul> -->
           </div>
         </div>
-        <div class="col-sm-6">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/Paola.jpg" alt="">
+        <div class="col-sm-6 zoom-effect ">
+          <div class="team-member zoom ">
+            <div style="position: relative; width: 225px; height: 225px; margin: 0 auto; overflow: hidden; border-radius:50% ">
+              <img class="mx-auto rounded-circle " src="img/team/Paola.jpg " alt="Paola Negri " style="border: 10px solid
+              #f3f1e9; ">
+            </div>
             <h4>Paola Negri</h4>
-            <p class="text-muted">consulente</p>
-            <p class="text-muted">è consulente Professionale in Allattamento Materno con diploma IBCLC dal 2002, Educatrice Perinatale (percorso
-              MIPA , Movimento Internazionale Parto Attivo) dal 2008 ed autrice di diversi libri sull'argomento</p>
-            <!-- <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
+            <p class="text-muted ">consulente</p>
+            <p class="text-muted ">Consulente Professionale in Allattamento Materno con diploma IBCLC dal 2002, Educatrice Perinatale (percorso
+              MIPA , Movimento Internazionale Parto Attivo) dal 2008 ed autrice di diversi libri sull'argomento.</p>
+            <!-- <ul class="list-inline social-buttons ">
+              <li class="list-inline-item ">
+                <a href="# ">
+                  <i class="fa fa-twitter "></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
+              <li class="list-inline-item ">
+                <a href="# ">
+                  <i class="fa fa-facebook "></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="http://www.paolanegri.it/">
-                  <i class="fa fa-linkedin"></i>
+              <li class="list-inline-item ">
+                <a href="http://www.paolanegri.it/ ">
+                  <i class="fa fa-linkedin "></i>
                 </a>
               </li>
             </ul> -->
@@ -309,124 +337,132 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis,
-          totam corporis ea, alias ut unde.</p>
+    <div class="row ">
+      <div class="col-lg-8 mx-auto text-center ">
+        <p class="large text-muted "></p>
       </div>
     </div>
     </div>
   </section>
 
   <!-- info -->
-  <section class="py-5" id="info">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 text-center">
+  <section class="py-5 " id="info">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-lg-6 text-center ">
           <h1>INFO</h1>
           <br />
-          <h3 class="section-subheading text-muted" style="margin-bottom:0;">Dal 03 Marzo 2018 al 04 Marzo 2018
+          <h3 class="section-subheading text-muted " style="margin-bottom:0; ">Dal 03 Marzo 2018 al 04 Marzo 2018
             <br />presso sede di
-            <a href="http://www.terranuova.it">
+            <a href="http://www.terranuova.it " target="_blank ">
               <b>Terra Nuova Edizioni</b>:
             </a>
             <br />Firenze, via Ponte di Mezzo 1
             <br />> Orario: 10-13 e 14-17</h3>
 
           <br />
-          <p style=" text-align:justify;">Costi: 55 euro a giornata oppure 100 euro le due giornate. È possibile l’iscrizione alla singola giornata o ad
-            entrambe, per partecipare occorre essere iscritti all’associazione La Cova (affiliata Arci, la tessera ha un
-            costo di 15 euro; chi è già tesserato Arci versa solo 5 euro come sostenitore dell'associazione). Gli abbonati
-            a Terra Nuova hanno lo sconto del 10% sulla quota di iscrizione. Per iscriversi effettuare il bonifico bancario
-            sull’Iban dell’associazione La Cova: IT27-M-05034-12800-000000026896 E inviarne copia per mail, completa di nome,
-            cognome, indirizzo, numero di telefono e e-mail a: Ass.lacova@gmail.com</p>
+          <p style=" text-align:justify; ">
+            <b>Costi:</b> 55 euro a giornata, o 100 euro le due giornate. È possibile l’iscrizione alla singola giornata o ad
+            entrambe, occorre essere iscritti all’associazione La Cova (affiliata Arci, la tessera ha un costo di 15 euro;
+            chi è già tesserato Arci versa solo 5 euro come sostenitore dell'associazione).
+            <br /> Gli abbonati a Terra Nuova hanno lo sconto del 10% sulla quota di iscrizione.
+            <br />Per iscriversi effettuare un bonifico sull’Iban dell’associazione
+            <a href="http://www.lacova.it/ " target="_blank ">La Cova</a>: IT27-M-05034-12800-000000026896 e inviarne copia per mail, completa di nome, cognome, indirizzo,
+            numero di telefono e e-mail a:
+            <a href="mailto:Ass.lacova@gmail.com?subject=Iscrizione%20al%20corso%20Dalla%20gravidanza%20ai%20primi%20%201000%20giorni%20di%20vita "
+              target="_top ">Ass.lacova@gmail.com</a>
+          </p>
         </div>
-        <div class="col-lg-6 text-center">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.169413318743!2d11.236572051380103!3d43.79009755148264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a5697af0421f1%3A0xccfe02fbd54b31a4!2sVia+del+Ponte+di+Mezzo%2C+1%2C+50127+Firenze+FI!5e0!3m2!1sit!2sit!4v1517309961202"
-            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="col-lg-6 text-center ">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.169413318743!2d11.236572051380103!3d43.79009755148264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a5697af0421f1%3A0xccfe02fbd54b31a4!2sVia+del+Ponte+di+Mezzo%2C+1%2C+50127+Firenze+FI!5e0!3m2!1sit!2sit!4v1517309961202 "
+            width="100% " height="450 " frameborder="0 " style="border:0 " allowfullscreen></iframe>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h3 class="section-heading text-uppercase">ContattateCi</h3>
-          <h3 class="section-subheading text-muted">per qualsiasi informazioni o curiosità :)</h3>
+  <!-- <section id="contact ">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-lg-12 text-center ">
+          <h3 class="section-heading text-uppercase ">ContattateCi</h3>
+          <h3 class="section-subheading text-muted ">per qualsiasi informazioni o curiosità :)</h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Nome *" required data-validation-required-message="per favore inserisci il tuo nome">
-                  <p class="help-block text-danger"></p>
+      <div class="row ">
+        <div class="col-lg-12 ">
+          <form id="contactForm " name="sentMessage " novalidate>
+            <div class="row ">
+              <div class="col-md-6 ">
+                <div class="form-group ">
+                  <input class="form-control " id="name " type="text " placeholder="Nome *
+              " required data-validation-required-message="per favore inserisci il tuo nome ">
+                  <p class="help-block text-danger "></p>
                 </div>
-                <div class="form-group">
-                  <input class="form-control" id="email" type="email" placeholder="Email *" required data-validation-required-message="per favore inserisci la tua email">
-                  <p class="help-block text-danger"></p>
+                <div class="form-group ">
+                  <input class="form-control " id="email " type="email " placeholder="Email *
+              " required data-validation-required-message="per favore inserisci la tua email ">
+                  <p class="help-block text-danger "></p>
                 </div>
-                <!-- <div class="form-group">
-                  <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="per favore inserisci il tuo numero di telefono">
-                  <p class="help-block text-danger"></p>
+                <!-- <div class="form-group ">
+                  <input class="form-control " id="phone " type="tel " placeholder="Your Phone *
+              " required data-validation-required-message="per favore inserisci il tuo numero di telefono ">
+                  <p class="help-block text-danger "></p>
                 </div> -->
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Lascia un messaggio *" required data-validation-required-message="di cosa hai bisogno ;)"></textarea>
-                  <p class="help-block text-danger"></p>
+  <!-- </div>
+              <div class="col-md-6 ">
+                <div class="form-group ">
+                  <textarea class="form-control " id="message " placeholder="Lascia un messaggio *
+              " required data-validation-required-message="di cosa hai bisogno ;) "></textarea>
+                  <p class="help-block text-danger "></p>
                 </div>
               </div>
-              <div class="clearfix"></div>
-              <div class="col-lg-12 text-center">
-                <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Invia!</button>
+              <div class="clearfix "></div>
+              <div class="col-lg-12 text-center ">
+                <div id="success "></div>
+                <button id="sendMessageButton " class="btn btn-primary btn-xl text-uppercase " type="submit ">Invia!</button>
               </div>
             </div>
           </form>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2018</span>
+  <footer style="background-color: #000000;">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-md-4 ">
+          <span class="copyright "></span>
         </div>
-        <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fa fa-twitter"></i>
+        <div class="col-md-4 ">
+          <ul class="list-inline social-buttons ">
+            <!-- <li class="list-inline-item ">
+              <a href="# ">
+                <i class="fa fa-twitter "></i>
+              </a>
+            </li> -->
+            <li class="list-inline-item ">
+              <a href="https://www.facebook.com/percorsogemelli/" target="_blank">
+                <i class="fa fa-facebook "></i>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fa fa-facebook"></i>
+            <!-- <li class="list-inline-item ">
+              <a href="# ">
+                <i class="fa fa-linkedin "></i>
               </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fa fa-linkedin"></i>
-              </a>
-            </li>
+            </li> -->
           </ul>
         </div>
-        <div class="col-md-4">
-          <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
+        <div class="col-md-4 ">
+          <ul class="list-inline quicklinks ">
+            <li class="list-inline-item ">
+              <a href="# "></a>
             </li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
+            <li class="list-inline-item ">
+              <a href="# "></a>
             </li>
           </ul>
         </div>
@@ -435,18 +471,18 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js "></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/jquery-easing/jquery.easing.min.js "></script>
 
   <!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+  <script src="js/jqBootstrapValidation.js "></script>
+  <script src="js/contact_me.js "></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/agency.min.js"></script>
+  <script src="js/agency.min.js "></script>
 
 </body>
 

@@ -32,7 +32,11 @@
         @include heading-font;
         &.active,
         &:hover {
-          color: $primary;
+          color: white;
+          font-weight: bold;
+          // font-size: 110%;
+          // transition: all 3s ease-in-out;
+
         }
       }
     }

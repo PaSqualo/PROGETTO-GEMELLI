@@ -5,7 +5,7 @@ body {
 }
 
 p {
-  line-height: 1.75;
+  line-height: 1.45;
 }
 
 a {
@@ -47,7 +47,7 @@ section {
 }
 @media(min-width:768px) {
   section {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 
@@ -77,6 +77,45 @@ section {
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
   }
 }
+/*light-effect*/
+.light-effect {
+  position: relative;
+  background-color: #f39c12;
+  border: none;
+  padding: 20px;
+  // width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.light-effect:hover{
+ background:#fff;
+ box-shadow:0px 2px 10px 5px #97B1BF;
+ color:rgb(198, 252, 240);
+}
+
+// .light-effect:after {
+//   content: "";
+//   background: #f1c40f;
+//   display: block;
+//   position: absolute;
+//   padding-top: 300%;
+//   padding-left: 350%;
+//   margin-left: -20px !important;
+//   margin-top: -120%;
+//   opacity: 0;
+//   transition: all 0.8s
+// }
+
+// .light-effect:active:after {
+//   padding: 0;
+//   margin: 0;
+//   opacity: 1;
+//   transition: 0s
+// }
 
 // Highlight color customization
 ::-moz-selection {
