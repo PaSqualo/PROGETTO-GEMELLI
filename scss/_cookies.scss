@@ -1,0 +1,102 @@
+section#privacy {
+  background-color: $gray-900;
+  background-image: url('../img/LoveLetter.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  .section-heading {
+    color: $white;
+  }
+
+#cookiesJs {
+    background-color:#000000bd;
+    color: white;
+    padding: 30px 30px;
+      position: fixed;
+      bottom: 0px;
+      z-index: 999;
+     font-size: 20px;
+    text-align: center;
+    }
+  #cookiesLnk {text-decoration: none;}
+  #cookiesExp {text-decoration: none;}
+
+  .shiny-button {
+    font-family: sans-serif;
+    display: inline-block;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    text-decoration: none;
+    text-decoration: none;
+    line-height: 1.1;
+    font-weight: normal;
+  }
+  
+  //  * Bottone CSS creato tramite Toolset.it
+  //  * http://toolset.mrwebmaster.it/css/button-generator.html
+  
+  a.shiny-button {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.1;
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    background-color: #FC1500;
+    background-image: -webkit-linear-gradient(top, #ff1702 0%, #e94a3c 48%, #FC1500 49%, #FC1500 82%, #ff2c19 100%);
+    background-image: -moz-linear-gradient(top, #ff1702 0%, #e94a3c 48%, #FC1500 49%, #FC1500 82%, #ff2c19 100%);
+    background-image: linear-gradient(top, #ff1702 0%, #e94a3c 48%, #FC1500 49%, #FC1500 82%, #ff2c19 100%);
+    border-color: hsl(5, 40%, 49%);
+    -webkit-box-shadow: inset 0 0 1px 1px #ff5949, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 0 1px 1px #ff5949, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0 1px 1px #ff5949, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    -webkit-text-shadow: 1px 1px 1px #960c00;
+    -moz-text-shadow: 1px 1px 1px #960c00;
+    text-shadow: 1px 1px 1px #960c00;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    padding: 2px 3px;
+  }
+  
+  .shiny-button strong {
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+  
+  .shiny-button:hover {
+    color: #FFFFFF;
+    background-color: #ff210c;
+    background-image: -webkit-linear-gradient(top, #ff2611 0%, #eb5749 48%, #ff210c 49%, #ff210c 82%, #ff3b28 100%);
+    background-image: -moz-linear-gradient(top, #ff2611 0%, #eb5749 48%, #ff210c 49%, #ff210c 82%, #ff3b28 100%);
+    background-image: linear-gradient(top, #ff2611 0%, #eb5749 48%, #ff210c 49%, #ff210c 82%, #ff3b28 100%);
+    border-color: hsl(5, 41%, 52%);
+    -webkit-box-shadow: inset 0 0 1px 1px #ff6253, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 0 1px 1px #ff6253, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 0 1px 1px #ff6253, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+    -webkit-text-shadow: 1px 1px 1px #a50e00;
+    -moz-text-shadow: 1px 1px 1px #a50e00;
+    text-shadow: 1px 1px 1px #a50e00;
+  }
+  
+  .shiny-button:active {
+    color: #FFFFFF;
+    background-color: #ed1400;
+    background-image: -webkit-linear-gradient(top, #e31300 0%, #FC1500 100%);
+    background-image: -moz-linear-gradient(top, #e31300 0%, #FC1500 100%);
+    background-image: linear-gradient(top, #e31300 0%, #FC1500 100%);
+    padding: 2px 3px;
+  }
+  
+  .div-btn {
+    float: right;
+      position: absolute;
+      right: .5%;
+      top: 10%;
+  }

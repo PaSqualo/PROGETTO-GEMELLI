@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Corso sulla scoperta della gravidanza gemellare, fonte di una meraviglia piena di domande e preoccupazioni per una nuova vita coi gemelli">
-  <meta name="author" content="Fabbozzi Pasquale">
+  <meta name="author" content="Fabbozzi Pasquale-MrSqualo!">
   <meta name="keywords" content="vita coi gemelli, figli gemelli, avere dei gemelli, gravidanza gemellare, partorire figli gemelli">
 
   <title>Dalla gravidanza ai primi 1000 giorni di vita: un percorso naturale e ad alto contatto per genitori di due (o più) gemelli</title>
@@ -20,11 +20,54 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-  <link rel="shortcut icon" href="/home/pasquale/Documents/progetti soolid/PROGETTO-GEMELLI/img/gemelli.ico" type="image/x-icon">
-  <link rel="icon" href="/home/pasquale/Documents/progetti soolid/PROGETTO-GEMELLI/img/gemelli.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/gemelli.ico" type="image/x-icon">
+  <link rel="icon" href="img/gemelli.ico" type="image/x-icon">
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
   <!-- Custom styles for this template -->
+  <!-- reference to jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+  <!-- <script>$(function () { alert('hello') });</script> -->
+  <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  <script>
+
+    $(document).ready(function () {
+      var textPriv =
+        "Questa pagina web utilizza <i>cookies</i> tecnici non a fini commerciali. Per maggiori informazioni sull’uso dei <i>cookies</i>,";
+      var cookiesLnk = "<a href='#' id='cookiesLnk'>\"cliccare qui\"</a>";
+
+      var cookies = false;
+      if (document.cookie && document.cookie.match(/cookie=1/)) {
+        cookies = true;
+      }
+
+      if (!cookies) {
+        $("body").append(
+          "<div class='container-fluid' id='cookiesJs'>" +
+          textPriv +
+          " " +
+          cookiesLnk +
+          "<div class='div-btn'><a href='#' id='cookiesExp' class='shiny-button'><strong>x</strong></a></div></div>"
+        );
+        function animInit() {
+          $('#cookiesJs').hide().fadeIn(500);
+        }
+        animInit()
+        // da la scadenza del cookies!
+        $("#cookiesExp").click(function closeCookie() {
+          var cookieExpire = new Date();
+          cookieExpire.setFullYear(cookieExpire.getFullYear() + 99);
+          document.cookie =
+            "cookie=1; expires=" + cookieExpire.toGMTString() + "; path=/";
+          $("#cookiesJs").fadeOut(900); console.log(document.cookie)
+        });
+      }
+    });
+
+
+  </script>
+
 </head>
 
 <body id="page-top">
@@ -62,8 +105,11 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#team" style="margin-top: 13px;">Team</a>
           </li>
-          <li class=" nav-item ">
+          <!-- <li class=" nav-item ">
             <a class="nav-link js-scroll-trigger " href="#contact" style="margin-top: 13px;">Contact</a>
+          </li> -->
+          <li class=" nav-item ">
+            <a class="nav-link js-scroll-trigger " href="privacy.html" style="margin-top: 13px;">Privacy</a>
           </li>
         </ul>
       </div>
@@ -102,7 +148,7 @@
             <span class="prof ">Alessia Laura Boni</span> e
             <span class="prof ">Sonia Coluccelli</span>, autrici del libro "
             <a href="http://www.terranuovalibri.it/libro/dettaglio/sonia-coluccelli-alessia-laura-boni/un-nido-per-due-gemelli-9788866812098-236127.html"
-              target="_blank">Un nido per due gemelli</a>", con la partecipazione come docenti di
+              target="_blank" style="color: #e28a00;">Un nido per due gemelli</a>", con la partecipazione come docenti di
             <span class="prof ">Verena Schmid</span> e
             <span class="prof ">Paola Negri</span>. Le giornate saranno condotte da Alessia Laura Boni e Sonia Coluccelli che porteranno la loro
             riflessione e testimonianza e faciliteranno lo scambio e il confronto tra i partecipanti, ogni giornata vedrà
@@ -354,7 +400,7 @@
           <br />
           <h3 class="section-subheading text-muted " style="margin-bottom:0; ">Dal 03 Marzo 2018 al 04 Marzo 2018
             <br />presso sede di
-            <a href="http://www.terranuova.it " target="_blank ">
+            <a href="http://www.terranuova.it" target="_blank " style="color: #e28a00;">
               <b>Terra Nuova Edizioni</b>:
             </a>
             <br />Firenze, via Ponte di Mezzo 1
@@ -367,10 +413,10 @@
             chi è già tesserato Arci versa solo 5 euro come sostenitore dell'associazione).
             <br /> Gli abbonati a Terra Nuova hanno lo sconto del 10% sulla quota di iscrizione.
             <br />Per iscriversi effettuare un bonifico sull’Iban dell’associazione
-            <a href="http://www.lacova.it/ " target="_blank ">La Cova</a>: IT27-M-05034-12800-000000026896 e inviarne copia per mail, completa di nome, cognome, indirizzo,
+            <a href="http://www.lacova.it/" target="_blank " style="color: #e28a00;">La Cova</a>: IT27-M-05034-12800-000000026896 e inviarne copia per mail, completa di nome, cognome, indirizzo,
             numero di telefono e e-mail a:
-            <a href="mailto:Ass.lacova@gmail.com?subject=Iscrizione%20al%20corso%20Dalla%20gravidanza%20ai%20primi%20%201000%20giorni%20di%20vita "
-              target="_top ">Ass.lacova@gmail.com</a>
+            <a href="mailto:Ass.lacova@gmail.com?subject=Iscrizione%20al%20corso%20Dalla%20gravidanza%20ai%20primi%20%201000%20giorni%20di%20vita"
+              target="_top " style="color: #e28a00;">Ass.lacova@gmail.com</a>
           </p>
         </div>
         <div class="col-lg-6 text-center ">
@@ -470,19 +516,21 @@
     </div>
   </footer>
 
+
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js "></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js "></script>
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js "></script>
-  <script src="js/contact_me.js "></script>
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
 
   <!-- Custom scripts for this template -->
-  <script src="js/agency.min.js "></script>
+  <script src="js/agency.min.js"></script>
 
 </body>
 
